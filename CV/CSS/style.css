@@ -1,0 +1,35 @@
+:root { 
+    --color-primario: #b125d4a9;  
+    --color-secundario: #6c757d; 
+    --color-fondo: #f8f9fa; 
+    --color-texto: #343a40; 
+  } 
+   
+  body { 
+    font-family: sans-serif; 
+    background-color: var(--color-fondo);
+  */ 
+    color: var(--color-texto);    margin: 0;   padding: 0;
+ } 
+   
+  h1, h2, h3 { 
+    color: var(--color-primario); 
+ } 
+   
+  p { 
+    line-height: 1.6;  
+  } 
+  @media (max-width: 575.98px) { 
+    .container { 
+      padding: 0 15px; 
+       }    
+      h2 { 
+      font-size: 1.3rem; 
+    } 
+  } 
+   
+  @media (min-width: 1200px) { 
+    .container { 
+      max-width: 1140px;
+    } 
+  
